@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const cardWidth = visibleCards[0].getBoundingClientRect().width;
             const gap = 40;
             const translateAmt = currentPageIndex * (cardWidth * cardsPerPage + gap * cardsPerPage);
-            
+
             track.style.transition = smooth ? 'transform var(--transition-smooth)' : 'none';
             track.style.transform = `translateX(-${translateAmt}px)`;
         } else {
