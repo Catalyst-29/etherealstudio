@@ -1426,9 +1426,30 @@ body.dark-mode .toggle-icon {
         transform: translateY(-7px) rotate(-45deg);
     }
 
-    /* Hero section font sizing */
+    /* Hero section font sizing & badge adjustments */
     .hero-title {
-        font-size: 3.25rem;
+        font-size: 2.35rem;
+        line-height: 1.2;
+    }
+
+    .hero-location-badge {
+        font-size: 0.75rem;
+        padding: 6px 12px;
+        margin-bottom: 16px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Portfolio filter wrapping */
+    .portfolio-filters {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    /* Testimonial Quote fluid scaling */
+    .testimonial-quote {
+        font-size: 1.5rem;
+        line-height: 1.45;
     }
 
     /* Grid system collapses */
@@ -1457,6 +1478,11 @@ body.dark-mode .toggle-icon {
 
     .service-card {
         padding: 32px;
+    }
+
+    .contact-title {
+        font-size: 2.35rem;
+        line-height: 1.2;
     }
 
     .contact-form-container {
